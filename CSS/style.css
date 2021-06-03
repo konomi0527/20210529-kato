@@ -1,0 +1,30 @@
+ul {
+  color: rgb(105, 103, 104);
+}
+.taitl {
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 60px;
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  color: rgb(253, 8, 131);
+}
+.taitl2 {
+  font-size: 25px;
+  position: absolute;
+  top: 45%;
+  left: 18%;
+  color: rgb(253, 8, 131);
+}
+.taitl3 {
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  color: rgb(126, 127, 128);
+}
+.sample {
+  color: rgb(126, 127, 128);
+  font-size: 15px;
+  text-align: right;
+  font-weight: bold;
