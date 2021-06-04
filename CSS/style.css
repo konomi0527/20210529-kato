@@ -1,26 +1,23 @@
-ul {
-  color: rgb(105, 103, 104);
-}
 .taitl {
   font-family: "Gloria Hallelujah", cursive;
   font-size: 60px;
   position: absolute;
-  top: 15%;
+  top: 25%;
   left: 20%;
   color: rgb(253, 8, 131);
 }
 .taitl2 {
   font-size: 25px;
   position: absolute;
-  top: 45%;
-  left: 18%;
+  top: 50%;
+  left: 21%;
   color: rgb(253, 8, 131);
 }
 .taitl3 {
   font-size: 15px;
   position: absolute;
-  top: 50%;
-  left: 20%;
+  top: 120%;
+  left: 0%;
   color: rgb(126, 127, 128);
 }
 .sample {
@@ -28,3 +25,49 @@ ul {
   font-size: 15px;
   text-align: right;
   font-weight: bold;
+  margin-right: 30px;
+  padding: 20px;
+}
+.News {
+  font-family: "Gloria Hallelujah", cursive;
+  position: absolute;
+  left: 20%;
+  color: rgb(253, 8, 131);
+  margin: 100px;
+}
+h2 {
+  position: absolute;
+  left: 27%;
+  bottom: -9%;
+  color: rgb(126, 127, 128);
+}
+hr {
+  background-color: rgb(98, 97, 97);
+  width: 10%
+  text-align: center;
+  margin: 170px auto 50px;
+  display: block;
+}
+
+.button {
+  width: 70px;
+  height: 15px;
+  color: #fff;
+  font-size: 12px;
+  background: rgb(253, 8, 131);
+  border-radius: 30px;
+  text-align: center;
+  margin: 170px auto 50px;
+  display: block;
+}
+
+.topics dl {
+padding: 15px 0;
+border-bottom: 1px solid #ccc;
+text-align: center;
+}
+
+.topics dt {
+padding-bottom: 5px;
+}
+
