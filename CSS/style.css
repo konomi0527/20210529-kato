@@ -60,13 +60,26 @@ hr {
   margin: 170px auto 150px;
 }
 .topics {
-  text-align: center;
-   color: rgb(126, 127, 128);
+  color: rgb(126, 127, 128);
+  padding: 20px;
+  border-top: solid 2px rgb(155, 154, 154);
+  position: absolute;
+  top: 115%;
+  left: 30%;
 }
-
 .mojikan {
-margin-right : 25px;
+　padding: 20px;
 }
 .mojikan2 {
-margin-left : 25px;
+　letter-spacing: 0.1em
+}
+ul {
+  width: 600px;
+  list-style: none;
+}
+li {
+  border-bottom: solid 2px rgb(236, 232, 232);
+  padding: 15px;
+  width: 610px;
+	margin-left: -20px
 }
