@@ -50,14 +50,13 @@ hr {
   }
 
 .button {
-  width: 70px;
-  height: 15px 0;
+  width: 50px;
+  height: 25px 0;
   color: rgb(250, 246, 246);
   font-size: 10px;
   background: rgb(216, 50, 105);
   padding: 2px 15px;
   border-radius: 30px;
-  margin: 170px auto 150px;
 }
 .topics {
   color: rgb(126, 127, 128);
@@ -67,19 +66,23 @@ hr {
   top: 115%;
   left: 30%;
 }
-.mojikan {
-　padding: 20px;
-}
-.mojikan2 {
-　letter-spacing: 0.1em
-}
 ul {
-  width: 600px;
+  width: 630px;
   list-style: none;
 }
 li {
   border-bottom: solid 2px rgb(236, 232, 232);
+  display: flex;
+  justify-content: space-around;
   padding: 15px;
   width: 610px;
-	margin-left: -20px
+}
+.border {
+  border-bottom: 2px solid rgb(155, 154, 154);
+  width: 630px;
+  padding-bottom: 20px;
+}
+.gray {
+	height: 400px;
+	background-color: red;
 }
