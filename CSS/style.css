@@ -36,15 +36,13 @@
   margin: 100px;
 }
 h2 {
-  position: absolute;
-  left: 27%;
-  bottom: -9%;
+  margin: 20px;
+  padding: 125px 380px ;
   color: rgb(126, 127, 128);
 }
 hr {
   background-color: rgb(115, 112, 112);
   width: 10%
-  text-align: center;
   margin: 170px auto 50px;
   display: block;
   }
@@ -79,10 +77,72 @@ li {
 }
 .border {
   border-bottom: 2px solid rgb(155, 154, 154);
-  width: 630px;
+  width: 640px;
   padding-bottom: 20px;
 }
 .gray {
-	height: 400px;
-	background-color: red;
+	height: 450px;
+  margin: 270px auto;
+  background-color: rgba(240, 235, 235, 0.721);
+}
+.About {
+  font-family: "Gloria Hallelujah", cursive;
+  position: absolute;
+  top: 155%;
+  left: 42%;
+  color: rgb(216, 50, 105);
+  margin: 100px;
+}
+.Techno {
+  position: absolute;
+  top: 172%;
+  left: 42%;
+  color: rgb(126, 127, 128);
+  font-size: 20px;
+  }
+  .digital{
+  position: absolute;
+  line-height: 24px;
+  top: 180%;
+  left: 20%;
+  color: rgb(117, 115, 116);
+}
+.pink2  {
+  position: absolute;
+  top: 180%;
+  left: 57%;
+}
+.digital2 {
+  position: absolute;
+  line-height: 24px;
+  top: 193%;
+  left: 20%;
+  color: rgb(117, 115, 116);
+}
+.Service {
+  font-family: "Gloria Hallelujah", cursive;
+  color: rgb(216, 50, 105);
+  padding: 10px 300px 0px;
+}
+  .Service2 {
+  color: rgb(126, 127, 128);
+  font-size: 20px;
+  padding: 0px 280px 0px;
+  }
+  .parent {
+    margin: 0px -100px;
+    min-height: 100vh;
+    display: grid;
+    grid-template:
+        "box1 box2 box3";
+}
+.box1 {
+  background: #d0238e87;
+  grid-area:  box;
+}
+.box2 {
+  background: #df2da1ad;
+}
+.box3 {
+  background: #947086ad;
 }
